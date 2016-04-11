@@ -6,7 +6,7 @@ function enableMsgInput(enable) {
 }
 
 function enableUsernameField(enable) {
-  $('input#userName').prop('disabled', !enable);
+  $('input#userName').prop('disabled', !enable); 
 }
 
 function appendNewMessage(msg) {
